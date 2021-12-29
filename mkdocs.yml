@@ -1,0 +1,63 @@
+site_name: MatrixOne Docs
+repo_name: matrixorigin/matrixone
+repo_url: https://github.com/matrixorigin/matrixone
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.instant  
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    scheme: mo
+  font:
+    text: Montserrat
+extra_css:
+  - stylesheets/extra.css
+extra:
+  homepage: https://www.matrixorigin.cn
+  version:
+    provider: mike
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+
+
+
+nav:
+  - MatrixOne:
+    - Overview: 
+      - Introduction: MatrixOne/Overview/Introduction.md
+      - Architecture: MatrixOne/Overview/Architecture.md
+      - Performance: MatrixOne/Overview/Performance.md
+      - MySQL Compatibility: MatrixOne/Overview/MySQL-Compatibility.md
+      - What's New?: MatrixOne/Overview/What's-New.md
+    - Get Started:
+      - Install MatrixOne: MatrixOne/Get-Started/Install-MatrixOne.md
+      - Connecting to MatrixOne Server: MatrixOne/Get-Started/Connect-To-MatrixOne-Server.md
+      - Learn MatrixOne SQL: MatrixOne/Get-Started/Learn-MatrixOne-SQL.md
+      - Benchmark Test: MatrixOne/Get-Started/Benchmark-Test.md
+      - Explore Matrixone Features: MatrixOne/Get-Started/Explore-Matrixone-Features.md
+    - Develop: 
+      - Design a Database: MatrixOne/Develop/Design-a-Database.md
+      - Load Data: MatrixOne/Develop/Load-Data.md
+      - Write Data: MatrixOne/Develop/Write-Data.md
+      - Read Data: MatrixOne/Develop/Read-Data.md
+    - Troubleshoot:
+      - Common Errors: MatrixOne/Troubleshoot/Common-Errors.md
+      - Troubleshoot Query Behavior: MatrixOne/Troubleshoot/Troubleshoot-Query-Behavior.md
+      - File an Issue: MatrixOne/Troubleshoot/File-an-Issue.md
+    - Reference:
+      - SQL Reference: 
+        - Data Types: MatrixOne/Reference/SQL-Reference/Data-Types.md
+      - CLI Commands: MatrixOne/Reference/CLI-Commands.md
+      - Configuration File Parameters: MatrixOne/Reference/Configuration-File-Parameters.md
+      - Error Codes: MatrixOne/Reference/Error-Codes.md
+    - FAQs:
+      - General FAQs: MatrixOne/FAQs/General-FAQs.md
+    - Releases:
+      - v0.1.0 Release Notes: MatrixOne/Releases/v0.1.0-Release-Notes.md
+    - Glossary: MatrixOne/Glossary.md
+
